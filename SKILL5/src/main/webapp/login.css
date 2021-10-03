@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+body
+{
+    background-color: #fff;
+}
+nav
+{
+    font-family: "Roboto", sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+a:hover
+{
+    color: black;
+}
+li
+{
+    margin: 0px 15px;
+}
+.logo
+{
+    font-family: "Script MT";
+    font-size: 30px;
+    text-align: center;
+    color: #6d5a5a;
+}
+.logo .logo-font
+{
+    color: #000;
+}
+.fa
+{
+    margin-right: 5px;
+}
+.loginform 
+{
+    font-family: "Roboto", sans-serif;
+    width: 475px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 5%;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 30px 50px;
+}
+.signupform 
+{
+    font-family: "Roboto", sans-serif;
+    width: 475px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 5%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 30px 30px;
+    margin-bottom: 20px;
+}
+
+.heading 
+{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.userlogo 
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.main 
+{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+.form-control 
+{
+    height: 45px;
+}
+@media (max-width: 470px) 
+{
+    .loginform 
+    {
+        width: 100%;
+    }
+}
+.btn 
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 30px;
+}

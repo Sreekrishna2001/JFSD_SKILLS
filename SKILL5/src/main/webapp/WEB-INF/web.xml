@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ViewCart</servlet-name>
+  	<display-name>ViewCart</display-name>
+  	<description></description>
+  	<servlet-class>controllers.ViewCart</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CustomerReg</servlet-name>
+  	<display-name>CustomerReg</display-name>
+  	<description></description>
+  	<servlet-class>controllers.CustomerReg</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Checkcustomer</servlet-name>
+  	<display-name>Checkcustomer</display-name>
+  	<description></description>
+  	<servlet-class>controllers.Checkcustomer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ViewCart</servlet-name>
+  	<url-pattern>/ViewCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerReg</servlet-name>
+  	<url-pattern>/CustomerReg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Checkcustomer</servlet-name>
+  	<url-pattern>/Checkcustomer</url-pattern>
+  </servlet-mapping>
+</web-app>

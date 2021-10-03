@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/hibernate-commons-annotations-3.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/hibernate-core-3.6.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/javassist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/jms-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/marem/Desktop/Jars All/hib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

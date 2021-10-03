@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+        
+    <title>HOME</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Online Movie Ticket Booking System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#"  onclick="document.getElementById('Register').style.display='block'" >Register</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"
+                           >Login
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#" onclick="document.getElementById('custormerlogin').style.display='block'" >Custormer Login</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="document.getElementById('managerlogin').style.display='block'" >Manager Login</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="document.getElementById('superadminlogin').style.display='block'" >Super Admin Login</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid" style="margin-top: 10px;">
+    <div class="row">
+        <div class="col-sm" >
+            <img style="object-fit: contain;" src="https://image.freepik.com/free-vector/cinema-popcorn-soda-drink-tickets-film-strip-movie-poster-with-fast-food-snack-cola-beverage-disposable-striped-package-abstract-blurred-background-realistic-3d-illustration_107791-3091.jpg"
+            alt="" srcset="">
+        </div>
+        
+      <div class="col-sm">
+        <h2 style="margin-top: 30vh;">BOOK YOUR MOVIE TICKETS WITH EASE </h2>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex rerum voluptates, qui fuga repellendus beatae eum ullam quae ut quas consectetur architecto culpa provident rem necessitatibus, aspernatur, nobis distinctio voluptatum!</h4>
+      </div>
+    
+    </div>
+</div>
+
+
+<!-- MODAL BOXS HERE -->
+
+
+
+
+
+
+
+<div id="custormerlogin" class="modal">
+  
+  <form class="modal-content animate" action="loginc" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('custormerlogin').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="https://img-premium.flaticon.com/png/512/552/premium/552721.png?token=exp=1630394118~hmac=c6011cf9630c369feef5150f5c96a0ff" alt="Avatar" class="avatar">
+    </div>
+    <h2>Custormer Login</h2>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('custormerlogin').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+<div id="managerlogin" class="modal">
+  
+    <form class="modal-content animate" action="managerlogin" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('managerlogin').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="https://img-premium.flaticon.com/png/512/552/premium/552721.png?token=exp=1630394118~hmac=c6011cf9630c369feef5150f5c96a0ff" alt="Avatar" class="avatar">
+      </div>
+      <h2>Manager Login</h2>
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('managerlogin').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+
+
+  <div id="Register" class="modal">
+  
+    <form class="modal-content animate" action="register" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('Register').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="https://img-premium.flaticon.com/png/512/552/premium/552721.png?token=exp=1630394118~hmac=c6011cf9630c369feef5150f5c96a0ff" alt="Avatar" class="avatar">
+      </div>
+      <h2>Register</h2>
+      <div class="container">
+        <form action="register">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="psw"><b>Mobile No</b></label>
+        <input type="" placeholder="Enter mobile no" name="mobile" required>
+        <label for="psw"><b>E-mail</b></label>
+        <input type="email" placeholder="Enter E-mail" name="email" required>
+        <button type="submit">Register</button>
+      </form>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('Register').style.display='none'" class="cancelbtn">Cancel</button>
+
+      </div>
+    </form>
+  </div>
+
+
+
+  <div id="superadminlogin" class="modal">
+  
+    <form class="modal-content animate" action="superadminlogin" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('superadminlogin').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="https://img-premium.flaticon.com/png/512/552/premium/552721.png?token=exp=1630394118~hmac=c6011cf9630c369feef5150f5c96a0ff" alt="Avatar" class="avatar">
+      </div>
+      <h2>Super Admin Login</h2>
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('superadminlogin').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+  
+
+
+
+</body>
+<script>
+    // Get the modal
+    var modal = document.getElementById('managerlogin');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+</html>
